@@ -3,4 +3,4 @@ docker run --rm -it --name certbot -v certbot-certs:/etc/letsencrypt certbot/cer
 	-m socialexpz1@gmail.com \
 	--agree-tos certonly \
 	--manual \
-	-d 'nable.mooo.com'
+	-d '*.nableintegration.ml'
